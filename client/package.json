@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jsnorek.github.io/test-deploy-vite",
+  "homepage": "https://jsnorek.github.io/test-deploy-vite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

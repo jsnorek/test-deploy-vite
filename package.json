@@ -4,7 +4,8 @@
   },
   "homepage": "https://jsnorek.github.io/test-deploy-vite",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-}
+    "predeploy": "npm run build --prefix client",
+    "deploy": "gh-pages -d client/dist",
+    "build": "cd client && npm run build"
+  }
 }
